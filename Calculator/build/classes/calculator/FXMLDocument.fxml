@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="43.0" layoutY="45.0" text="Number 1" />
+      <Label layoutX="43.0" layoutY="78.0" text="Number 2" />
+      <Label layoutX="43.0" layoutY="120.0" text="Result" />
+      <TextField fx:id="Number1Field" layoutX="138.0" layoutY="41.0" promptText="Enter a number" />
+      <TextField fx:id="Number2Field" layoutX="138.0" layoutY="74.0" promptText="Enter a number" />
+      <TextField fx:id="ResultField" layoutX="138.0" layoutY="116.0" />
+      <Button layoutX="135.0" layoutY="151.0" mnemonicParsing="false" onAction="#HandlaAddAction" text="Add" />
+      <Button layoutX="195.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleSubtractAction" text="Subtract" />
+      <Button layoutX="196.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleMultiplyAction" text="Multiply" />
+      <Button layoutX="134.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleDevideAction" text="Devide" />
+      <Button layoutX="44.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleResetAction" text="Reset" />
+    </children>
+</AnchorPane>
